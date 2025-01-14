@@ -1,3 +1,7 @@
 #Basic Knowledge and Tips
 ##Some Tips
 `--restart always` Always restart when the system reboot. This applies to service which needs to be available 24 hours. eg.Mysql,Kafka,Redis
+
+`docker rm -f $(docker ps -aq)` remove all the containers
+`docker volumenls` list all the volumes
+`docker volume rm x y z` delete the volumes

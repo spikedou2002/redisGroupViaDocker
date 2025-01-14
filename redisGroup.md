@@ -1,4 +1,4 @@
-# Buil a Redis Group via Docker
+# Build a Redis Group via Docker
 ## Overview
     Firt build a network:myNet
 `docker network create mynet`

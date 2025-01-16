@@ -62,3 +62,4 @@ A sample yaml configuration file:
 ##增量更新
 `docker compose -f compose.yaml up -d`
 只会构建修改过的容器
+-f 指定固定的yaml文件
